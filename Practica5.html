@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title> Practica 5</title>
+  <link rel="stylesheet" type="text/css" href="Estilosproyectos.css">
+  <link rel="stylesheet" type="text/css" href="Estilostablasproyecto.css">
+  <script type="text/javascript" src="Practica5.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Practica 5</h1>
+        <nav>
+          <ul>
+            <li><a href="index.html"> Pagina Principal </a></li>
+            <li><a href="Sobremi.html"> Sobre mi</a></li>
+            <li><a href="Practica2.html">Práctica 2: HTML</a></li>
+            <li><a href="Practica3.html">Práctica 3: Tablas y CSS</a></li>
+            <li><a href="Practica4.html">Práctica 4: JavaScript 1</a></li>
+            <li><a href="parte2.html"> Lista de tareas </a></li>
+        </ul>
+        </nav>
+    </header>
+  <h1>Registro de usuarios interesados en compra de automoviles</h1>
+  <form id="">
+    <h2> Datos personales </h2>
+    Nombre: <input type="text" id="nombre"><br>
+    Email:  <input type="email" id="email"><br>
+    
+    <h2> Marca de interes </h2>
+    <label for="Volkswagen"> Volkswagen </label>
+    <input type="checkbox" name="Automoviles" value="Volkswagen" id="Volkswagen">
+    <label for="Nissan"> Nissan </label>
+    <input type="checkbox" name="Automoviles" value="Nissan" id="Nissan">
+    <label for="Chevrolet"> Chevrolet </label>
+    <input type="checkbox" name="Automoviles" value="Chevrolet" id="Chevrolet">
+
+    <h2> Precio del automovil </h2>
+    <label for="bajo">$0-$100,000</label>
+    <input type="radio" name="precio" value="bajo" id="bajo"><br>
+    <label for="medio">$100,001 - $400,000</label>
+    <input type="radio" name="precio" value="medio" id="medio"><br>
+    <label for="alto">$400,001 - $1,000,000</label>
+    <input type="radio" name="precio" value="medio" id="alto"><br>
+
+
+    <h2>Fecha de registro </h2>
+    <input type="datetime-local" id="fechahora"><br>
+
+    <h2>Color del coche </h2>
+    <input type="color" id="color"><br>
+
+    <h2> Años de uso </h2>
+    <input type="range" id="añosdeuso" min="1" max="10" step="1"><br>
+
+    <button type="button" onclick="registrar()">Registrar</button>
+    <br id="resultado"></br>
+  </form>
+
+  <table id="Tablaautomoviles">
+    
+  </table>
+</body>
+<footer id="footer">
+  <p>  2024 Mi Portafolio Web - Luis Rocha</p>
+</footer>
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Practica 4</title>
+    <script type="text/javascript" src="Practica4.js"> </script>
+    <link rel="stylesheet" href="Estilosproyectos.css">
+</head>
+<body>
+    <header>
+        <h1> Practica 4 </h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Pagina Principal </a></li>
+                <li><a href="Sobremi.html"> Sobre mi</a></li>
+                <li><a href="Practica2.html">Práctica 2: HTML</a></li>
+                <li><a href="Practica3.html">Práctica 3: Tablas y CSS</a></li>
+                <li><a href="Practica5.html">Práctica 5: JavaScript 2</a></li>
+                <li><a href="parte2.html"> Lista de tareas </a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1> Calificaciones </h1>
+    <form action="">
+        Ingresa tu calificación <input type="number" id="calificaciones"> <br>  
+        <button type="button" onclick="enviar()"> Enviar </button> <br> 
+        <p id="resultadocalif"> </p>
+    </form>
+
+    <h1> Factorial ciclico</h1>
+    <form action="">
+        Ingresa un numero entero positivo <input type="number"  id="num">  <br>
+        <button type="button" onclick="factoriall()"> Calcular </button> <br>
+        <p id="resultadofacto">  </p>   
+    </form>
+
+    <h1> Registros de usuario</h1>
+    <h2> Ingrese sus datos:</h2>
+    <form>
+        Nombre: <input type="text" id="nombre"> <br> 
+        Correo: <input type="email" id="correo"> <br> 
+        Edad: <input type="number" id="edad">  <br> 
+        Hombre <input type="radio" name="genero" id="Hombre">  <br> 
+        Mujer <input type="radio" name="genero" id="Mujer"> <br>  
+        No binario <input type="radio" name="genero" id="No binario">  <br> 
+        Fecha de nacimiento: <input type="date" id="fecha"> <br>
+        Color favorito: <input type="color" id="color"> <br> 
+        <button type="button" onclick="registrousuarios()"> Register </button> <br>
+        <p id="resultadousuario"> </p>
+    </form>
+    <footer id="footer">
+        <p>  2024 Mi Portafolio Web - Luis Rocha</p>
+    </footer>
+</body>
+</html>
